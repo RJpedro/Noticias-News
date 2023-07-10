@@ -1,0 +1,7 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.btn-header-top {
+   @apply flex justify-center items-center gap-1 text-white font-bold p-2 px-6 bg-black rounded-lg;
+}
