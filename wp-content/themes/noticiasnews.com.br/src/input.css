@@ -2,6 +2,14 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+.btn {
+   @apply flex items-center gap-1 font-bold p-2 px-6 rounded-lg text-white bg-black text-sm;
+}
+
 .btn-header-top {
-   @apply flex justify-center items-center gap-1 text-white font-bold p-2 px-6 bg-black rounded-lg;
+   @apply justify-center;
+}
+
+.btn-footer-top {
+   @apply justify-start;
 }
