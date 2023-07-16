@@ -14,8 +14,8 @@
         <img class="h-4 w-36" src="<?= get_template_directory_uri()?>/src/img/noticias-news-header.png" alt="Logo do Notícias News">
     </div>
     <div class="flex gap-4">
-        <button class="btn btn-header-top"><span>Acessar Conta</span> <i class="ph ph-sign-in"></i></button>
-        <button class="btn btn-header-top"><span>Registrar-se</span> <i class="ph ph-user-plus"></i></button>
-        <button class="btn btn-header-top"><span>Deslogar</span> <i class="ph ph-sign-out"></i></button>
+        <button class="btn justify-center"><span>Acessar Conta</span> <i class="ph ph-sign-in"></i></button>
+        <button class="btn justify-center"><span>Registrar-se</span> <i class="ph ph-user-plus"></i></button>
+        <button class="btn justify-center"><span>Deslogar</span> <i class="ph ph-sign-out"></i></button>
     </div>
 </div>

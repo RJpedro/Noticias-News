@@ -7,10 +7,10 @@
     </div>
     
     <div class="flex flex-col w-1/2 py-4">
-        <button class="btn btn-footer-top"><i class="py-1 ph ph-sign-in"></i> <span>Acesse sua conta agora</span></button>
-        <button class="btn btn-footer-top"><i class="py-1 ph ph-user-plus"></i> <span>Não possui conta, registre-se agora!</span></button>
-        <button class="btn btn-footer-top"><i class="py-1 ph ph-text-columns"></i> <span>Ver mais notícias</span></button>
-        <button class="btn btn-footer-top"><i class="py-1 ph ph-book-bookmark"></i> <span>Termos de uso</span></button>
+        <button class="btn justify-start"><i class="py-1 ph ph-sign-in"></i> <span>Acesse sua conta agora</span></button>
+        <button class="btn justify-start"><i class="py-1 ph ph-user-plus"></i> <span>Não possui conta, registre-se agora!</span></button>
+        <button class="btn justify-start"><i class="py-1 ph ph-text-columns"></i> <span>Ver mais notícias</span></button>
+        <button class="btn justify-start"><i class="py-1 ph ph-book-bookmark"></i> <span>Termos de uso</span></button>
     </div>   
     <div class="w-1/6"></div>    
 </footer>
