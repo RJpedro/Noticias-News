@@ -2,30 +2,53 @@
 get_header();
 ?>
 
-<main class="w-3/5 h-auto bg-white mx-auto my-32 flex rounded-lg">
-    <div class="flex items-end w-1/2">
-        <img src="<?= get_template_directory_uri()?>/src/img/login-register.png" alt="Imagem de uma pessoa segurando o celular" class="h-5/6">
-    </div>
-
-    <!-- LOGAR -->
-    <!-- <div>
-        <h2 class="text-black font-bold text-xl">Resgistrar <span class="text-red font-bold text-xl">conta</span></h2>
-        <input class="border-light-gray border-2 rounded px-4 py-2 w-2/3 placeholder-black placeholder:text-xs placeholder:font-semibold" type="text" placeholder="Entre com seu nome">
-        <input class="border-light-gray border-2 rounded px-4 py-2 w-2/3 placeholder-black placeholder:text-xs placeholder:font-semibold" type="text" placeholder="Digite sua senha">
-        <button  class="btn justify-center p-2 w-2/3">Entrar <i class="ph ph-sign-in"></i></button>
-        <span class="text-black text-sm font-normal">Já possui conta ?<a href="#" class="text-red text-sm font-normal"> Acesse sua conta!</a></span>
-    </div> -->
-
-    <!-- REGISTRAR -->
-    <div class="flex flex-col justify-center items-center gap-4 w-1/2 py-12">
-        <h2 class="text-black font-bold text-xl">Resgistrar <span class="text-red font-bold text-xl">conta</span></h2>
-        <input class="border-light-gray border-2 rounded px-4 py-2 w-2/3 placeholder-black placeholder:text-xs placeholder:font-semibold" type="text" placeholder="Entre com seu nome">
-        <input class="border-light-gray border-2 rounded px-4 py-2 w-2/3 placeholder-black placeholder:text-xs placeholder:font-semibold" type="text" placeholder="Entre com seu e-mail">
-        <input class="border-light-gray border-2 rounded px-4 py-2 w-2/3 placeholder-black placeholder:text-xs placeholder:font-semibold" type="text" placeholder="Digite sua senha">
-        <input class="border-light-gray border-2 rounded px-4 py-2 w-2/3 placeholder-black placeholder:text-xs placeholder:font-semibold" type="text" placeholder="Repita sua senha">
-        <button  class="btn justify-center p-2 w-2/3">Registrar-se <i class="ph ph-user-plus"></i></button>
-        <span class="text-black text-sm font-normal">Já possui conta ?<a href="#" class="text-red text-sm font-normal"> Acesse sua conta!</a></span>
-    </div>
+<main class="min-h-screen">
+    <section class="flex w-1/2"></section>
+    <section class="flex w-1/2 flex-col">
+        <div class="flex gap-4">
+            <img src="<?= get_template_directory_uri()?>/src/img/noticia-sem-imagem.jpg" alt="Imagem da Noticia" class="w-44 h-32">
+            <div class="flex flex-col justify-between max-w-xs gap-2">
+                <div class="categories">
+                    <div class="rounded bg-red text px-2 py-1 uppercase text-white max-w-max font-semibold">Saúde/Bem Estar</div>
+                </div>
+                <h2 class="text-lg font-medium text-black truncate">Os hábitos que contaminam a comida e matam pessoas todos os anos</h2>
+                <span class="text-gray">Por <span class="text-red">Ana Lise </span> - 1 de abr 2023 07h15</span>
+            </div>
+        </div>
+        <div class="h-px bg-gray w-full my-4"></div>
+        <div class="flex gap-4">
+            <img src="<?= get_template_directory_uri()?>/src/img/noticia-sem-imagem.jpg" alt="Imagem da Noticia" class="w-44 h-32">
+            <div class="flex flex-col justify-between max-w-xs gap-2">
+                <div class="categories">
+                    <div class="rounded bg-red text px-2 py-1 uppercase text-white max-w-max font-semibold">Saúde/Bem Estar</div>
+                </div>
+                <h2 class="text-lg font-medium text-black truncate">Os hábitos que contaminam a comida e matam pessoas todos os anos</h2>
+                <span class="text-gray">Por <span class="text-red">Ana Lise </span> - 1 de abr 2023 07h15</span>
+            </div>
+        </div>
+        <div class="h-px bg-gray w-full my-4"></div>
+        <div class="flex gap-4">
+            <img src="<?= get_template_directory_uri()?>/src/img/noticia-sem-imagem.jpg" alt="Imagem da Noticia" class="w-44 h-32">
+            <div class="flex flex-col justify-between max-w-xs gap-2">
+                <div class="categories">
+                    <div class="rounded bg-red text px-2 py-1 uppercase text-white max-w-max font-semibold">Saúde/Bem Estar</div>
+                </div>
+                <h2 class="text-lg font-medium text-black truncate">Os hábitos que contaminam a comida e matam pessoas todos os anos</h2>
+                <span class="text-gray">Por <span class="text-red">Ana Lise </span> - 1 de abr 2023 07h15</span>
+            </div>
+        </div>
+        <div class="h-px bg-gray w-full my-4"></div>
+        <div class="flex gap-4">
+            <img src="<?= get_template_directory_uri()?>/src/img/noticia-sem-imagem.jpg" alt="Imagem da Noticia" class="w-44 h-32">
+            <div class="flex flex-col justify-between max-w-xs gap-2">
+                <div class="categories">
+                    <div class="rounded bg-red text px-2 py-1 uppercase text-white max-w-max font-semibold">Saúde/Bem Estar</div>
+                </div>
+                <h2 class="text-lg font-medium text-black truncate">Os hábitos que contaminam a comida e matam pessoas todos os anos</h2>
+                <span class="text-gray">Por <span class="text-red">Ana Lise </span> - 1 de abr 2023 07h15</span>
+            </div>
+        </div>
+    </section>
 </main>
 
 <?php

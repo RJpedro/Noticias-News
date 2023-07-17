@@ -5,3 +5,11 @@
 .btn {
    @apply flex items-center gap-1 font-bold p-2 px-6 rounded-lg text-white bg-black text-sm;
 }
+
+.input-fields {
+   @apply border-light-gray border-2 rounded px-4 py-2 w-2/3 placeholder-black placeholder:text-xs placeholder:font-semibold;
+}
+
+.form {
+   @apply flex flex-col justify-center items-center gap-4 w-1/2 py-12;
+}
