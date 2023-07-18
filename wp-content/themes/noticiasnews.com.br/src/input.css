@@ -13,3 +13,23 @@
 .form {
    @apply flex flex-col justify-center items-center gap-4 w-1/2 py-12;
 }
+
+.card-notice {
+   @apply flex flex-col justify-between max-w-xs gap-2;
+}
+
+.category {
+   @apply rounded bg-red px-2 py-1 uppercase text-white max-w-max font-semibold;
+}
+
+.title-notice {
+   @apply font-medium text-black truncate;
+}
+
+.space-horizontal {
+   @apply h-px bg-gray my-4;
+}
+
+.space-vertical {
+   @apply w-px bg-gray mx-4;
+}
